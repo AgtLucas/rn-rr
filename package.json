@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "bsb -make-world -clean-world",
+    "watch": "bsb -make-world -clean-world -w",
     "test": "jest"
   },
   "dependencies": {
